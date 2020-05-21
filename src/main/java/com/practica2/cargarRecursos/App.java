@@ -9,8 +9,7 @@ public class App
     public static void main( String[] args )
     {
         CargarArchivos cargarArchivos = new CargarArchivos();
-        cargarArchivos.cargarArchivoProfesores();
-        System.out.println( "Hello World!" );
+        cargarArchivos.cargarArchivoProfesoresTxt();
         System.out.println( "Hello World!" );
     }
 }
